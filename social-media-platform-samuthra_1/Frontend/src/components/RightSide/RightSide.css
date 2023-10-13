@@ -1,0 +1,101 @@
+.RightSide{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: rgb(175 179 179);
+}
+
+
+.navIcons{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navIcons>img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+.r-button{
+    height: 3rem;
+    width: 80%;
+    align-self: center;
+}
+.chatpopup{
+    height: 600px;
+    width: 50%;
+    background-color: rgb(246, 246, 246);
+    position: absolute;
+    top: 10%;
+    right: 25%;
+}
+.chatHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px 0px 20px;
+    border-bottom: 2px solid black;
+}
+.chatButton{
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+    background-color:rgb(175 179 179);
+    border: none;
+}
+.settingpopup{
+    height: 150px;
+    width: 20%;
+    background-color: rgb(246, 246, 246);
+    position: absolute;
+    top: 0;
+    right: 25%;
+}
+.settinghead{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px 0px 20px;
+    border-bottom: 2px solid black;
+
+}
+.settingButton{
+    width: 80px;
+    height: 60px;
+    cursor: pointer;
+    background-color:rgb(175 179 179);
+    border: none;
+    margin-left: 10%;
+
+}
+/* svg[Attributes Style]{
+    width:'4em';
+    height:'4em';
+} */
+.closeChats{
+    cursor: pointer;
+}
+.closeSetting{
+    cursor: pointer;
+}
+#check{
+    margin-right: 6px;
+}
+label{
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+}
+#check:checked{
+    accent-color: #7d2ae8;
+}
+#check:checked ~ label{
+    color: 7d2ae8;
+}
+
+.grSetting{
+    background-color: rgb(136, 138, 243);
+    border-radius: 50%;
+    margin-bottom: 15%;
+}

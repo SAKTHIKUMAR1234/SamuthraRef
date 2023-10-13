@@ -1,0 +1,39 @@
+.LogoSearch{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+}
+.logo-img{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.logo-img img{
+    width: 40%;
+    height: 40%;
+    margin:5px;
+}
+.Search{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--inputColor);
+    border-radius: 10px;
+    position: relative;
+    margin: 5px;
+}
+
+.Search>input{
+    width: 100%;
+    background-color: transparent;
+    border:none;
+    outline: none;
+    margin: 5px;
+    padding: 8px;
+}
+
+
+
+
+
